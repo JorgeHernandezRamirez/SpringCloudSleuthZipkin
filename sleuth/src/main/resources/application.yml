@@ -1,0 +1,4 @@
+spring:
+   zipkin:
+      #No hace falta, por defecto se va a buscar el servidor zipkin a localhost:9411
+      baseUrl: http://localhost:9411
