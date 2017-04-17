@@ -15,7 +15,7 @@ public class SleuthConfiguration {
     }
 
     @Bean
-    public Sampler defaultSampler() {
+    public Sampler buildAlwaysSampler() {
         return new AlwaysSampler();
     }
 }

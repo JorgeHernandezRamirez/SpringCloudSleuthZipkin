@@ -13,7 +13,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'maven'
-apply plugin: 'spring-boot'
+apply plugin: 'org.springframework.boot'
 
 dependencyManagement {
     imports {
@@ -24,7 +24,7 @@ dependencyManagement {
 sourceCompatibility = 1.8
 
 springBoot {
-    mainClass = "com.jorgehernandezramirez.spring.springcloud.eureka.Application"
+    mainClass = "com.jorgehernandezramirez.spring.springcloud.sleuth.Application"
 }
 
 repositories {
